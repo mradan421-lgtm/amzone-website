@@ -1,1 +1,1 @@
-# amzone-website
+# amzone.com
