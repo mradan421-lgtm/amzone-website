@@ -3,39 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AM Zone Communications</title>
+
+<title>UK Lead Generation Experts | AM Zone Communications</title>
+
+<meta name="description" content="We provide high-quality, compliant UK leads with weekly delivery and reliable communication.">
+<meta name="keywords" content="UK Leads, Lead Generation UK, Call Center Services">
 
 <style>
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
+    background: #f4f6f9;
 }
 
 /* HEADER */
-.header {
+header {
     background: #0b2a4a;
     color: white;
     padding: 15px 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.logo {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.nav a {
+nav a {
     color: white;
     margin-left: 20px;
     text-decoration: none;
 }
 
+nav a:hover {
+    color: orange;
+}
+
 /* HERO */
 .hero {
     height: 90vh;
-    background: url('https://images.unsplash.com/photo-1551434678-e076c223a692') no-repeat center center/cover;
+    background: url('https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1470&q=80') no-repeat center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,14 +46,18 @@ body {
     color: white;
 }
 
-.overlay {
+.hero-box {
     background: rgba(0,0,0,0.6);
     padding: 40px;
     border-radius: 10px;
 }
 
 .hero h1 {
-    font-size: 40px;
+    font-size: 45px;
+}
+
+.hero p {
+    font-size: 18px;
 }
 
 .highlight {
@@ -59,30 +66,64 @@ body {
 }
 
 .btn {
-    margin-top: 20px;
-    display: inline-block;
-    padding: 12px 25px;
     background: orange;
+    padding: 12px 25px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* SERVICES */
+.services {
+    padding: 60px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* IMAGE SECTION */
+.image-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.image-section img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* ABOUT */
+.about {
+    background: #0b2a4a;
+    color: white;
+    padding: 50px;
+    text-align: center;
 }
 
 /* CONTACT */
 .contact {
-    padding: 40px;
+    padding: 50px;
     text-align: center;
 }
 
-.contact a {
-    color: #0b2a4a;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 /* FOOTER */
-.footer {
-    background: #0b2a4a;
+footer {
+    background: black;
     color: white;
     text-align: center;
     padding: 15px;
@@ -93,40 +134,91 @@ body {
 <body>
 
 <!-- HEADER -->
-<div class="header">
-    <div class="logo">AM Zone Communications</div>
-    <div class="nav">
+<header>
+    <h2>AM Zone Communications</h2>
+    <nav>
         <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
         <a href="#contact">Contact</a>
-    </div>
-</div>
+    </nav>
+</header>
 
 <!-- HERO -->
-<div class="hero">
-    <div class="overlay">
+<section class="hero">
+    <div class="hero-box">
         <h1>UK Lead Generation Experts</h1>
         <p>We provide professional lead generation services for UK businesses.</p>
-        
-        <p class="highlight">
-        We provide high-quality, compliant UK leads with weekly delivery and reliable communication.
-        </p>
-
-        <!-- EMAIL BUTTON -->
-        <a href="mailto:amzone977@gmail.com" class="btn">Email Us</a>
+        <p class="highlight">We provide high-quality, compliant UK leads with weekly delivery and reliable communication.</p>
+        <a href="mailto:amzone977@gmail.com" class="btn">Work With Us</a>
     </div>
-</div>
+</section>
 
-<!-- CONTACT SECTION -->
-<div class="contact" id="contact">
+<!-- SERVICES -->
+<section class="services" id="services">
+    <h2>Professional Services</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Customer Communication</h3>
+            <p>Inbound and outbound communication services.</p>
+        </div>
+
+        <div class="card">
+            <h3>Business Support</h3>
+            <p>Helping companies improve relationships.</p>
+        </div>
+
+        <div class="card">
+            <h3>Client Engagement</h3>
+            <p>Connecting businesses with customers.</p>
+        </div>
+    </div>
+</section>
+
+<!-- IMAGE -->
+<section class="image-section">
+    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1470&q=80">
+</section>
+
+<!-- WORK ENVIRONMENT -->
+<section class="services">
+    <h2>Our Work Environment</h2>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=800&q=80" width="100%">
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" width="100%">
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80" width="100%">
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <h2>About AM Zone</h2>
+    <p>
+        AM Zone Communications is a modern outsourcing company focused on delivering
+        high-quality UK lead generation and customer support services.
+    </p>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
     <h2>Contact Us</h2>
     <p>Email: <a href="mailto:amzone977@gmail.com">amzone977@gmail.com</a></p>
-</div>
+</section>
 
 <!-- FOOTER -->
-<div class="footer">
-    © 2026 AM Zone Communications | Email: amzone977@gmail.com
-</div>
+<footer>
+    <p>© 2026 AM Zone Communications. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
-
